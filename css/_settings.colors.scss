@@ -1,0 +1,53 @@
+/////////////////////////////////////////////////
+// COLORS                                      //
+/////////////////////////////////////////////////
+
+
+
+//
+// GRAYS
+//
+$color-gray-lightest:        #f3f7fb;
+$color-gray-lighter:         #e8eef4;
+$color-gray-light:           #dce1e7;
+$color-gray-lightish:        #ccd2d7;
+$color-gray-medium:          #b5babf;
+$color-gray-darkish:         #9da2a7;
+$color-gray-dark:            #888c90;
+$color-gray-darker:          #65696d;
+$color-gray-darkest:         #37393c;
+
+
+//
+// BRAND
+// 
+$color-primary:              #3498db;
+$color-primary-dark:         darken($color-primary, 15%);
+$color-primary-light:        lighten($color-primary, 15%);
+
+$color-secondary:            #1abc9c;
+$color-secondary-dark:       darken($color-secondary, 15%);
+$color-secondary-light:      lighten($color-secondary, 15%);
+
+
+//
+// PAGE
+//
+$color-bg:                   $color-gray-light;
+$color-module:               white;
+$color-text:                 $color-gray-darkest;
+
+
+//
+// LINKS
+//
+$color-link:                 $color-primary;
+$color-link-hover:           darken($color-link, 5%);
+$color-link-visited:         $color-link;
+
+
+//
+// BUTTONS
+//
+$color-btn:                  $color-primary;
+

@@ -1,0 +1,23 @@
+/////////////////////////////////////////////////
+// LAYOUT                                      //
+/////////////////////////////////////////////////
+//
+// A simple flexbox-based layout/grid system. Use in conjunction with inuitcss'
+// "widths" and "widths-responsive" modules.
+//
+
+
+.layout {
+	flex-wrap: wrap;
+	list-style: none;
+	margin-left: -$spacing;
+	padding: 0;
+	@include flexbox();
+}
+.layout__item {
+	padding-left: $spacing;
+	@include flex(1 1 auto);
+}
+.layout__item[class*="/"] {
+	//@include flex(0 0 0%);
+}

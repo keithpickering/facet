@@ -1,0 +1,38 @@
+/////////////////////////////////////////////////
+// PAGE-BODY                                   //
+/////////////////////////////////////////////////
+
+
+
+.page-body {
+	padding-top: $page-head-height;
+	box-shadow: $box-shadow-high;
+}
+
+.page-main {
+	padding: $spacing;
+	background-color: $color-module;
+	box-shadow: $box-shadow-lower;
+}
+
+	.page-featured {
+		margin-bottom: $spacing;
+		min-height: 248px !important;
+	}
+		.page-featured__post {
+			position: relative;
+			min-height: 248px !important;
+			width: 100%;
+		background-color: $color-gray-darkest;
+		background-image: url(http://i.imgur.com/naxYhtX.jpg);
+		background-size: cover;
+		background-position: 50% 50%;
+		background-attachment: fixed;
+		}
+		.page-featured__info {
+			position: absolute;
+			bottom: $spacing;
+			left: 0;
+			min-height: 248px;
+			background-color: rgba(black, 0.8);
+		}

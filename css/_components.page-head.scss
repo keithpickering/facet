@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////
+// PAGE HEAD                                   //
+/////////////////////////////////////////////////
+
+
+
+.page-head {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: $page-head-height;
+	text-align: center;
+	background-color: $color-gray-lightest;
+	box-shadow: $box-shadow-low;
+	z-index: 999;
+	> .wrapper {
+		position: relative;
+	}
+}
+
+	.site-logo {
+		text-transform: uppercase;
+		letter-spacing: 0.25em;
+		font-weight: 200;
+		color: $color-gray-medium;
+		@include inuit-font-size($inuit-heading-size-1, $page-head-height);
+	}
